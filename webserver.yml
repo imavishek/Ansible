@@ -1,0 +1,10 @@
+---
+- name: Install Nginx
+  hosts: all
+  become: yes
+  become_user: root
+  tasks:
+    - name: Install apache httpd
+      apt:
+        name: apache2
+        state: present
