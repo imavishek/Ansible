@@ -1,5 +1,5 @@
 ---
-- name: Install Nginx
+- name: Install Webserver
   hosts: all
   become: yes
   become_user: root
